@@ -1,16 +1,16 @@
 # Simple Image Search Algorithm and KNN
 
-This repository forms *assignment 1* by Mina Almasi (202005465) in the subject *Visual Analytics*, *Cultural Data Science*, F2023. The assignment description can be found [here](https://github.com/AU-CDS/assignment1-simple-image-search-MinaAlmasi/blob/main/assignment-desc.md).
+This repository forms *assignment 1* by Mina Almasi (202005465) in the subject *Visual Analytics*, *Cultural Data Science*, F2023. The assignment description can be found [here](https://github.com/MinaAlmasi/assignment1-simple-image-search/blob/master/assignment-desc.md).
 
 The repository contains code for building and running a simple image search algorithm that relies on colour histograms to compare similarities within images. As a bonus, a KNN image search algorithm is also constructed which relies on a pretrained CNN (VGG16) to extract features from image data. 
 
-Concretely, both algorithms involve choosing a target image and comparing it to other images, returning the ```N``` most similar images and their distances as a ```.CSV``` file. As an addition, the script also returns a plot of the images with the target image highlighted in red (see [Results](https://github.com/AU-CDS/assignment1-simple-image-search-MinaAlmasi#results))
+Concretely, both algorithms involve choosing a target image and comparing it to other images, returning the ```N``` most similar images and their distances as a ```.CSV``` file. As an addition, the script also returns a plot of the images with the target image highlighted in red (see [Results](https://github.com/MinaAlmasi/assignment1-simple-image-search/tree/master#results))
 
 ## Data 
 The image algorithm is performed on the [*Flowers*](https://www.robots.ox.ac.uk/~vgg/data/flowers/17/) dataset. The dataset contains 1360 images of 17 types of flowers that are common in the UK (i.e., 80 images per type).
 
 ## Reproduciblity
-To reproduce the results, please follow the instructions in the [*Pipeline*](https://github.com/AU-CDS/assignment1-simple-image-search-MinaAlmasi#pipeline) section. 
+To reproduce the results, please follow the instructions in the [*Pipeline*](https://github.com/MinaAlmasi/assignment1-simple-image-search/tree/master#pipeline) section. 
 
 ## Project Structure 
 The repository is structured as such:
@@ -76,14 +76,13 @@ The images below show the results of running the two search algorithms on ```ima
 
 ### Simple Image Search Algorithm 
 <p align="left">
-  <img width=65% height=65% src="https://github.com/AU-CDS/assignment1-simple-image-search-MinaAlmasi/blob/main/out/SIMPLE_5_imgs_similar_to_image_0020.jpg.png">
+  <img width=65% height=65% src="https://github.com/MinaAlmasi/assignment1-simple-image-search/blob/master/out/SIMPLE_5_imgs_similar_to_image_0020.jpg.png">
 </p>
 
 ### KNN Image Search Algorithm
 <p align="left">
-  <img width=65% height=65% src="https://github.com/AU-CDS/assignment1-simple-image-search-MinaAlmasi/blob/main/out/KNN_5_imgs_similar_to_image_0020.jpg.png">
+  <img width=65% height=65% src="https://github.com/MinaAlmasi/assignment1-simple-image-search/blob/master/out/KNN_5_imgs_similar_to_image_0020.jpg.png">
 </p>
-
 
 ### Discussion of Results
 For this particular example, the ```KNN algorithm``` is undeniably superior to the ```simple image search```. The simple image search algorithm has three yellow flowers that do not seem to be the same type along with both a white and purple flower. On the other hand, the KNN algorithm contains only yellow images and several images appear to also be the same flower type as ```image_0020.jpg```. 
