@@ -1,4 +1,5 @@
 # Simple Image Search Algorithm and KNN
+Repository link: https://github.com/MinaAlmasi/assignment1-simple-image-search
 
 This repository forms *assignment 1* by Mina Almasi (202005465) in the subject *Visual Analytics*, *Cultural Data Science*, F2023. The assignment description can be found [here](https://github.com/MinaAlmasi/assignment1-simple-image-search/blob/master/assignment-desc.md).
 
@@ -71,6 +72,8 @@ python src/image_search.py -i {IMAGE} -N {N_IMAGES_TO_COMPARE_TO} -alg {ALGORITH
 | ```-i```   | chosen image to compare with                        | image_0020.jpg  |
 | ```-n```   | N images to compare chosen image with               | 5               |
 | ```-alg``` | image search algorithm, choose either SIMPLE or KNN | SIMPLE          |
+
+NB! Remember to activate the ```env``` first (by running ```source ./env/bin/activate```)
 
 ## Results 
 The images below show the results of running the two search algorithms on ```image_0020.jpg```.
