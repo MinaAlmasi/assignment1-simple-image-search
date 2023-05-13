@@ -4,7 +4,7 @@ This repository forms *assignment 1* by Mina Almasi (202005465) in the subject *
 
 The repository contains code for building and running a simple image search algorithm that relies on colour histograms to compare similarities within images. As a bonus, a KNN image search algorithm is also constructed which relies on a pretrained CNN (VGG16) to extract features from image data. 
 
-Concretely, both algorithms involve choosing a target image and comparing it to other images, returning the ```N``` most similar images and their distances as a ```.CSV``` file. As an addition, the script also returns a plot of the images with the target image highlighted in red (see [Results](https://github.com/MinaAlmasi/assignment1-simple-image-search/tree/master#results))
+Concretely, both algorithms involve choosing a target image and comparing it to other images, returning the ```N``` most similar images and their distances as a ```.CSV``` file. As an addition, the script also returns a plot of the images with the target image highlighted in red (see [Results](https://github.com/MinaAlmasi/assignment1-simple-image-search/tree/master#results)).
 
 ## Data 
 The image algorithm is performed on the [*Flowers*](https://www.robots.ox.ac.uk/~vgg/data/flowers/17/) dataset. The dataset contains 1360 images of 17 types of flowers that are common in the UK (i.e., 80 images per type).
@@ -42,7 +42,8 @@ The ```.CSV``` file for the chosen image is structured as such for both algorith
 |image_ZZZZ.jpeg|---|n|
 
 ## Pipeline
-The pipeline has been tested on Ubuntu ([UCloud](https://cloud.sdu.dk/)). Python's [venv](https://docs.python.org/3/library/venv.html) needs to be installed for the pipeline to work.
+The pipeline has been tested on Ubuntu v22.10, Python v3.10.7 ([UCloud](https://cloud.sdu.dk/), Coder Python 1.77.3). 
+Python's [venv](https://docs.python.org/3/library/venv.html) needs to be installed for the pipeline to work.
 
 ### Setup
 Firstly, please unzip the ```flowers.zip``` in the **data** folder. Then, run ```setup.sh``` in the terminal:

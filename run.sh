@@ -5,11 +5,11 @@ source ./env/bin/activate
 
 # run simple image search
 echo -e "[INFO:] Running SIMPLE image search on default image ..." # user msg 
-python3.9 src/image_search.py -alg SIMPLE
+python3 src/image_search.py -alg SIMPLE
 
 # run KNN image search
 echo -e "[INFO:] Running KNN image search on default image ..." # user msg 
-python3.9 src/image_search.py -alg KNN
+python3 src/image_search.py -alg KNN
 
 # deactivate virtual environment
 deactivate
