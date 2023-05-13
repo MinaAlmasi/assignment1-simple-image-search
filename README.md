@@ -68,8 +68,8 @@ python src/image_search.py -i {IMAGE} -N {N_IMAGES_TO_COMPARE_TO} -alg {ALGORITH
 
 | Arg        | Description                                         | Default         |
 | :---       |:---                                                 |:---             |
-| ```-i```   | chosen image to compare with                        | image_0020.jpg |
-| ```-n```   | N images to compare chosen image with of            | 5               |
+| ```-i```   | chosen image to compare with                        | image_0020.jpg  |
+| ```-n```   | N images to compare chosen image with               | 5               |
 | ```-alg``` | image search algorithm, choose either SIMPLE or KNN | SIMPLE          |
 
 ## Results 
