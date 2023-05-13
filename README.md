@@ -7,7 +7,7 @@ The repository contains code for building and running a simple image search algo
 Concretely, both algorithms involve choosing a target image and comparing it to other images, returning the ```N``` most similar images and their distances as a ```.CSV``` file. As an addition, the script also returns a plot of the images with the target image highlighted in red (see [Results](https://github.com/MinaAlmasi/assignment1-simple-image-search/tree/master#results)).
 
 ## Data 
-The image algorithm is performed on the [*Flowers*](https://www.robots.ox.ac.uk/~vgg/data/flowers/17/) dataset. The dataset contains 1360 images of 17 types of flowers that are common in the UK (i.e., 80 images per type).
+The image searches are performed on the [*Flowers*](https://www.robots.ox.ac.uk/~vgg/data/flowers/17/) dataset. The dataset contains 1360 images of 17 types of flowers that are common in the UK (i.e., 80 images per type).
 
 ## Reproduciblity
 To reproduce the results, please follow the instructions in the [*Pipeline*](https://github.com/MinaAlmasi/assignment1-simple-image-search/tree/master#pipeline) section. 
