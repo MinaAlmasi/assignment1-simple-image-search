@@ -47,11 +47,10 @@ The pipeline has been tested on Ubuntu v22.10, Python v3.10.7 ([UCloud](https://
 Python's [venv](https://docs.python.org/3/library/venv.html) needs to be installed for the pipeline to work.
 
 ### Setup
-Firstly, please unzip the ```flowers.zip``` in the **data** folder. Then, run ```setup.sh``` in the terminal:
+Firstly, please unzip the ```flowers.zip``` in the **data** folder. Secondly, create a virtual environment (```env```) and install necessary requirements by running: 
 ```
 bash setup.sh
 ```
-The script installs the necessary packages and its dependencies in a newly created virtual environment (```env```). 
 
 ### Running the Image Search Algorithms
 To run the image searches, type the following in the terminal:
