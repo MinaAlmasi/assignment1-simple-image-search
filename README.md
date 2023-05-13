@@ -18,20 +18,20 @@ The repository is structured as such:
 ├── README.md
 ├── assignment-desc.md
 ├── data
-│   └── flowers.zip                                <---     unzip to perform image searc
-├── out                                            <---    .CSV & .png from image search
+│   └── flowers.zip                                <---     unzip prior to search
+├── out                                            <---    .CSV & .png from search
 │   ├── KNN_5_imgs_similar_to_image_0020.jpg.csv 
 │   ├── KNN_5_imgs_similar_to_image_0020.jpg.png
 │   ├── SIMPLE_5_imgs_similar_to_image_0020.jpg.csv
 │   └── SIMPLE_5_imgs_similar_to_image_0020.jpg.png
 ├── requirements.txt
-├── run.sh                                          <---   run to perform image search 
+├── run.sh                                          <---   run to perform image searches 
 ├── setup.sh                                        <---   run to install necessary reqs & packages
 └── src
-    ├── image_search.py                             <---   run with arguments to perform either KNN or simple image search
-    ├── knn_image_search_fns.py                     <---   functions for KNN image search
-    ├── plotting_fns.py                             <---   functions for plotting image search algorithms
-    └── simple_image_search_fns.py                  <---   functions for simple image search
+    ├── image_search.py                             <---   run either KNN or SIMPLE
+    ├── knn_image_search_fns.py                     <---   functions for KNN search
+    ├── plotting_fns.py                             <---   functions for plotting
+    └── simple_image_search_fns.py                  <---   functions for SIMPLE search
 ```
 
 The ```.CSV``` file for the chosen image is structured as such for both algorithms:
