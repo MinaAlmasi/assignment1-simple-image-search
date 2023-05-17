@@ -128,7 +128,7 @@ def KNN_image_search(chosen_image, img_dir, out_dir, features_dict, n:int):
     features = list(features_dict.values())
 
     # fit KNN 
-    neighbours = NearestNeighbors(n_neighbors=n*2, 
+    neighbours = NearestNeighbors(n_neighbors=n+1, 
                              algorithm='brute',
                              metric='cosine').fit(features) # fitted on all the values (features) in the features_dit
 
